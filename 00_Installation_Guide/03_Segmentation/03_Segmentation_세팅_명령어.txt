@@ -1,0 +1,8 @@
+conda create -n cv_edu3 python=3.8
+conda activate cv_edu3
+conda install jupyter notebook
+pip install ipykernel
+python -m ipykernel install --user --name cv_edu3
+
+=> 주피터 노트북 실행 후 교육자료 내 00_Installation_Guide/03_Segmentation/03_YOLACT_Setting.ipynb 
+     를 주피터 노트북으로 실행 후 모든 셀 실행
